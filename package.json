@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "npx nodemon src/server.js",
     "start": "node src/server.js",
+    "restartBanco": "npx sequelize db:migrate:undo:all && npx sequelize db:migrate && npx sequelize db:seed:all",
     "precriarBanco": "npx sequelize db:create",
     "criarBanco": "npx sequelize db:migrate",
     "postcriarBanco": "npx sequelize db:seed:all",
