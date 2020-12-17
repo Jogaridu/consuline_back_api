@@ -121,7 +121,8 @@ module.exports = {
             return res.status(200).send(filialTodos);
 
         } catch (error) {
-            return res.status(404).send({ erro: "Falha ao buscar todos os serviços" });
+            console.log(error);
+            return res.status(404).send({ erro: "Falha ao buscar todos as filiais" });
 
         }
     },
