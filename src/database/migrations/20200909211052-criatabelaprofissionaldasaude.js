@@ -51,7 +51,7 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: false,
         refences: {
-          model: "tblfilial",
+          model: "tblFilial",
           key: "id",
         },
         onDelete: "CASCADE",
@@ -61,7 +61,7 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: false,
         refences: {
-          model: "tblservico",
+          model: "tblServico",
           key: "id"
         },
         onDelete: "CASCADE",

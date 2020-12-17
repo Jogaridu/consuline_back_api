@@ -13,7 +13,7 @@ module.exports = {
         allowNull: false,
         refences: {
           model: "tblProfissionalDaSaude",
-          key: "profissionalDaSaudeId",
+          key: "id",
         },
         onDelete: "CASCADE",
         onUpdate: "CASCADE",

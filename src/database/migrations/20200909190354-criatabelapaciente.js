@@ -86,7 +86,7 @@ module.exports = {
         allowNull: false,
         refences: {
           model: "tblEnderecoPaciente",
-          key: "id,"
+          key: "id"
         }
       },
 

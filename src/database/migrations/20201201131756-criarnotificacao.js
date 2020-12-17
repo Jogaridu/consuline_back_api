@@ -20,7 +20,7 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: false,
         refences: {
-          model: "tblconsulta",
+          model: "tblConsulta",
           key: "id",
         },
         onDelete: "CASCADE",
@@ -30,7 +30,7 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: false,
         refences: {
-          model: "tblpaciente",
+          model: "tblPaciente",
           key: "id",
         },
         onDelete: "CASCADE",
