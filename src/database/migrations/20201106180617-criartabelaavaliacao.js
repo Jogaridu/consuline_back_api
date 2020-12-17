@@ -2,19 +2,19 @@
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    return queryInterface.createTable("tblavaliacao", {
+    return queryInterface.createTable("tblAvaliacao", {
       id: {
         type: Sequelize.INTEGER,
         primaryKey: true,
         autoIncrement: true,
       },
-      estrelas:{
-        type:Sequelize.INTEGER,
-        allowNull:false,
+      estrelas: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
       },
-      comentario:{
-        type:Sequelize.TEXT,
-        allowNull:false
+      comentario: {
+        type: Sequelize.TEXT,
+        allowNull: false
       },
       PacienteId: {
         type: Sequelize.INTEGER,
@@ -45,6 +45,6 @@ module.exports = {
   },
 
   down: async (queryInterface, Sequelize) => {
-    return queryInterface.dropTable("tblavaliacao");
+    return queryInterface.dropTable("tblAvaliacao");
   },
 };
