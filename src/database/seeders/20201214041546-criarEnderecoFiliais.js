@@ -3,7 +3,7 @@
 module.exports = {
   up: async (queryInterface, Sequelize) => {
 
-    await queryInterface.bulkInsert('tblenderecofilial', [
+    await queryInterface.bulkInsert('tblEnderecoFilial', [
       {
         cep: "06463320",
         rua: "Rua João Rodrigues Nunes",
@@ -66,7 +66,7 @@ module.exports = {
 
   down: async (queryInterface, Sequelize) => {
 
-    await queryInterface.bulkDelete('tblenderecofilial', null, {});
+    await queryInterface.bulkDelete('tblEnderecoFilial', null, {});
 
   }
 };
