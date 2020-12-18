@@ -19,7 +19,7 @@ module.exports = {
       PacienteId: {
         type: Sequelize.INTEGER,
         allowNull: false,
-        refences: {
+        references: {
           model: "tblPaciente",
           key: "id",
         },
@@ -29,7 +29,7 @@ module.exports = {
       ProfissionalDaSaudeId: {
         type: Sequelize.INTEGER,
         allowNull: false,
-        refences: {
+        references: {
           model: "tblProfissional",
           key: "id",
         },

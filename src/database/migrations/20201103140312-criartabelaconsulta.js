@@ -43,7 +43,7 @@ module.exports = {
       PacienteId: {
         type: Sequelize.INTEGER,
         allowNull: false,
-        refences: {
+        references: {
           model: "tblPaciente",
           key: "id",
         },
@@ -53,7 +53,7 @@ module.exports = {
       ProfissionalDaSaudeId: {
         type: Sequelize.INTEGER,
         allowNull: false,
-        refences: {
+        references: {
           model: "tblProfissional",
           key: "id",
         },
@@ -63,7 +63,7 @@ module.exports = {
       FilialId: {
         type: Sequelize.INTEGER,
         allowNull: true,
-        refences: {
+        references: {
           model: "tblfilial",
           key: "id",
         },
@@ -73,7 +73,7 @@ module.exports = {
       ServicoId: {
         type: Sequelize.INTEGER,
         allowNull: false,
-        refences: {
+        references: {
           model: "tblServico",
           key: "id",
         },
@@ -83,7 +83,7 @@ module.exports = {
       PagamentoId: {
         type: Sequelize.INTEGER,
         allowNull: false,
-        refences: {
+        references: {
           model: "tblPagamento",
           key: "id",
         },
@@ -93,7 +93,7 @@ module.exports = {
       AtendimentoId: {
         type: Sequelize.INTEGER,
         allowNull: false,
-        refences: {
+        references: {
           model: "tblatendimento",
           key: "id",
         },
