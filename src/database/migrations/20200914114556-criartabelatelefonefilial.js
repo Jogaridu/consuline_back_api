@@ -12,7 +12,7 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      filialId: {
+      FilialId: {
         type: Sequelize.INTEGER,
         allowNull: false,
         references: {
