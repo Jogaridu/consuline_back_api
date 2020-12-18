@@ -11,7 +11,7 @@ module.exports = {
         crm: "1233211",
         login: "jose",
         senha: bcrypt.hashSync("jose", 10),
-        foto: "https://firebasestorage.googleapis.com/v0/b/consuline.appspot.com/o/medicoJose.jpg?alt=media&token=1eee8d1f-8f57-4607-89cc-a08b2f613002",
+        foto: "https://firebasestorage.googleapis.com/v0/b/consuline.appspot.com/o/medicoJose.jpg?alt=media&token=2293f239-8f52-4297-8fbd-35663129c3ba",
         email: "jose_consuline@email.com",
         EnderecoProfissionalDaSaudeId: 1,
         FilialId: 1,
