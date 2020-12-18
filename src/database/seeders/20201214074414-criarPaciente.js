@@ -14,7 +14,7 @@ module.exports = {
         email: "ns5077900@gmail.com",
         rg: "385610082294",
         cpf: "123569104564",
-        enderecoPacienteId: 1,
+        EnderecoPacienteId: 1,
         verificado: true,
         createdAt: new Date(),
         updatedAt: new Date()
@@ -29,7 +29,7 @@ module.exports = {
         email: "teste2@gmail.com",
         rg: "315660282194",
         cpf: "623560111564",
-        enderecoPacienteId: 1,
+        EnderecoPacienteId: 1,
         verificado: true,
         createdAt: new Date(),
         updatedAt: new Date()
