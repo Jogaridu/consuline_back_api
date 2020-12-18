@@ -6,7 +6,7 @@ module.exports = {
     await queryInterface.bulkInsert("tblPaciente", [
       {
         nome: "Nicolas Santos",
-        celular: "11974554723",
+        celular: "11996545650",
         login: "Nick",
         foto: "https://firebasestorage.googleapis.com/v0/b/consuline.appspot.com/o/fotoNicolas.png?alt=media&token=4cf52137-000e-45bd-985c-18ee8c84a90f",
         senha: bcrypt.hashSync("123", 10),
