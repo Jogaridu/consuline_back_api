@@ -54,7 +54,7 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: false,
         references: {
-          model: "tblProfissional",
+          model: "tblProfissionalDaSaude",
           key: "id",
         },
         onDelete: "CASCADE",
@@ -64,7 +64,7 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: true,
         references: {
-          model: "tblfilial",
+          model: "tblFilial",
           key: "id",
         },
         onDelete: "CASCADE",
@@ -94,7 +94,7 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: false,
         references: {
-          model: "tblatendimento",
+          model: "tblAtendimento",
           key: "id",
         },
         onDelete: "CASCADE",
