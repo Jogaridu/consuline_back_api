@@ -4,7 +4,7 @@ module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.bulkInsert("tblAvaliacao", [
       {
-        PacienteId: 1,
+        PacienteId: 2,
         ProfissionalDaSaudeId: 1,
         estrelas: 4,
         comentario: "Muito bom!",
