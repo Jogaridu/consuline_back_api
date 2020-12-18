@@ -272,7 +272,7 @@ module.exports = {
                 include: [
                     {
                         association: "Paciente",
-                        attributes: ["nome", "dataNascimento", "cpf", "celular", "id"],
+                        attributes: ["nome", "dataNascimento", "cpf", "celular", "foto", "id"],
                     },
                     {
                         association: "Filial",
