@@ -72,7 +72,7 @@ module.exports = {
         allowNull: true
       },
 
-      planoDeSaudeId: {
+      PlanoDeSaudeId: {
         type: Sequelize.INTEGER,
         allowNull: true,
         refences: {
