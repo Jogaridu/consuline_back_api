@@ -11,7 +11,7 @@ module.exports = {
         email: "consuline_barueri@email.com",
         ie: "123412341",
         razaoSocial: "Consuline",
-        enderecoFilialId: 1,
+        EnderecoFilialId: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -22,7 +22,7 @@ module.exports = {
         email: "consuline_osasco@email.com",
         ie: "123321123",
         razaoSocial: "Consuline",
-        enderecoFilialId: 2,
+        EnderecoFilialId: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -33,7 +33,7 @@ module.exports = {
         email: "consuline_sao_paulo@email.com",
         ie: "111111111",
         razaoSocial: "Consuline",
-        enderecoFilialId: 3,
+        EnderecoFilialId: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -44,7 +44,7 @@ module.exports = {
         email: "consuline_itapevi@email.com",
         ie: "222222222",
         razaoSocial: "Consuline",
-        enderecoFilialId: 4,
+        EnderecoFilialId: 4,
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -55,7 +55,7 @@ module.exports = {
         email: "consuline_guarulhos@email.com",
         ie: "333333333",
         razaoSocial: "Consuline",
-        enderecoFilialId: 5,
+        EnderecoFilialId: 5,
         createdAt: new Date(),
         updatedAt: new Date()
       },

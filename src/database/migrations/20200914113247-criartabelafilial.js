@@ -33,7 +33,7 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      enderecoFilialId: {
+      EnderecoFilialId: {
         type: Sequelize.INTEGER,
         allowNull: false,
         references: {
