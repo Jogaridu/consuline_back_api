@@ -122,7 +122,7 @@ module.exports = {
 
         } catch (error) {
             console.log(error);
-            return res.status(404).send({ erro: "Falha ao buscar todos as filiais" });
+            return res.status(404).send(error);
 
         }
     },
