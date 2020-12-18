@@ -10,7 +10,7 @@ module.exports = {
         login: login,
       },
     });
- 
+
     if (
       profissionalDaSaude &&
       (await bcrypt.compare(senha, profissionalDaSaude.senha))
@@ -36,6 +36,7 @@ module.exports = {
         idProfissionalDaSaude: profissionalDaSaude.id,
         nome: profissionalDaSaude.nome,
         cpf: profissionalDaSaude.cpf,
+        imagem: profissionalDaSaude.foto
       },
       token,
     };
