@@ -81,7 +81,7 @@ module.exports = {
         }
       },
 
-      enderecoPacienteId: {
+      EnderecoPacienteId: {
         type: Sequelize.INTEGER,
         allowNull: false,
         refences: {
