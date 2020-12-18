@@ -26,7 +26,7 @@ module.exports = {
         onDelete: "CASCADE",
         onUpdate: "CASCADE",
       },
-      PacienteId: {
+      pacienteId: {
         type: Sequelize.INTEGER,
         allowNull: false,
         refences: {
