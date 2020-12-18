@@ -9,7 +9,7 @@ class Notificacao extends Model {
       },
       {
         sequelize,
-        tableName: "tblnotificacao",
+        tableName: "tblNotificacao",
       }
     );
   }
