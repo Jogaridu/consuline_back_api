@@ -5,96 +5,96 @@ module.exports = {
 
     await queryInterface.bulkInsert('tblFilialServico', [
       {
-        filialId: 1,
-        servicoId: 7,
+        FilialId: 1,
+        ServicoId: 7,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        filialId: 1,
-        servicoId: 8,
+        FilialId: 1,
+        ServicoId: 8,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        filialId: 1,
-        servicoId: 2,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
-
-      {
-        filialId: 2,
-        servicoId: 3,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
-      {
-        filialId: 2,
-        servicoId: 4,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
-      {
-        filialId: 2,
-        servicoId: 9,
+        FilialId: 1,
+        ServicoId: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       },
 
       {
-        filialId: 3,
-        servicoId: 1,
+        FilialId: 2,
+        ServicoId: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        filialId: 3,
-        servicoId: 7,
+        FilialId: 2,
+        ServicoId: 4,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        filialId: 3,
-        servicoId: 8,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
-
-      {
-        filialId: 4,
-        servicoId: 2,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
-      {
-        filialId: 4,
-        servicoId: 9,
-        createdAt: new Date(),
-        updatedAt: new Date()
-      },
-      {
-        filialId: 4,
-        servicoId: 3,
+        FilialId: 2,
+        ServicoId: 9,
         createdAt: new Date(),
         updatedAt: new Date()
       },
 
       {
-        filialId: 5,
-        servicoId: 5,
+        FilialId: 3,
+        ServicoId: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        filialId: 5,
-        servicoId: 6,
+        FilialId: 3,
+        ServicoId: 7,
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
-        filialId: 5,
-        servicoId: 9,
+        FilialId: 3,
+        ServicoId: 8,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+
+      {
+        FilialId: 4,
+        ServicoId: 2,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        FilialId: 4,
+        ServicoId: 9,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        FilialId: 4,
+        ServicoId: 3,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+
+      {
+        FilialId: 5,
+        ServicoId: 5,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        FilialId: 5,
+        ServicoId: 6,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        FilialId: 5,
+        ServicoId: 9,
         createdAt: new Date(),
         updatedAt: new Date()
       },
